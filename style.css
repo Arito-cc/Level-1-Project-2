@@ -1,0 +1,183 @@
+@import url("https://fonts.cdnfonts.com/css/svn-gilroy");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: svn-gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 40px;
+  position: fixed;
+  width: 100%;
+}
+
+#nav h3{
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+#intro {
+  height: 40%;
+  width: 100%;
+  padding: 30px;
+}
+
+#intro h1 {
+  letter-spacing: -5px;
+  font-size: 100px;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+
+#place {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#place h3, #place h4{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#hero-img{
+  height: 85%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1465080298426-c19339a41ddf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+#about{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 60px;
+}
+
+#about h2{
+  width: 60%;
+  font-size: 66px;
+  line-height: 65px;
+  font-weight: 600;
+}
+
+#about-sub{
+  width: 35%;
+  height: 100%;
+  border-left: 2px solid black;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-sub h3{
+  font-size: 25px;
+  font-weight: 600;
+
+}
+
+#social i{
+  background-color: black;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#work{
+  height: 55%;
+  width: 100%;
+  border-top: 2px solid gray;
+  display: flex;
+  padding: 50px 60px;
+}
+
+#work1{
+  height: 100%;
+  width: 35%;
+  border-right: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+#work1 h3{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#work1 i{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+#work2{
+  height: 100%;
+  width: 65%;
+  padding: 0px 60px;
+}
+
+.work2-part{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.work2-part:nth-child(1){
+  border-bottom: 2px solid black;
+  padding-top: 0;
+}
+
+.work2-part .part-element{
+  width: 50%;
+  height: 100%;
+}
+
+.work2-part .part-element:nth-child(1){
+  border-right: 2px solid black;
+  padding-right: 50px;
+}
+
+.work2-part .part-element:nth-child(2){
+  padding-left: 50px;
+}
+
+.work2-part .part-element h4{
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.work2-part .part-element p{
+  font-size: 17px;
+  font-weight: 500;
+  color: #5d5d5d;
+}
+
